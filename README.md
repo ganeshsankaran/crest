@@ -1,3 +1,17 @@
+Fork Notes
+==========
+
+Tested with 
+- Ubuntu 20.04 LTS (64-bit)
+- `gcc/g++ 9.3.0 (Ubuntu 9.3.0-10ubuntu2)`
+- `opam 2.0.5`
+    - OCaml 4.05.0
+    - `ocamlbuild 0.14.0`
+
+Installed
+- `gcc-multilib`
+- `g++-multilib`
+
 CREST
 =====
 

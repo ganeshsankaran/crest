@@ -1,8 +1,7 @@
+YICES_DIR = / # TODO: change this to Yices root directory
 
-YICES_DIR=/home/jburnim/yices-1.0.11
-
-CC=$(CXX)
-CFLAGS = -I. -I$(YICES_DIR)/include -Wall -O2
+CC = $(CXX)
+CFLAGS = -I. -I$(YICES_DIR)/include -Wall -O2 -std=c++98 -no-pie
 CXXFLAGS = $(CFLAGS)
 LDFLAGS = -L$(YICES_DIR)/lib
 LOADLIBES = -lyices
